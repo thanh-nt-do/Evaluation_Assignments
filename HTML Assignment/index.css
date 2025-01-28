@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* background: #f4f4f4; */
+}
+
+.container {
+    /* width: 100%; */
+    max-width: 600px;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-group input {
+    /* width: 100%; */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+.row input {
+    flex: 1;
+    padding: 15px;
+}
+
+.full-width {
+    padding: 15px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.checkbox input {
+    margin-right: 8px;
+}
+
+.terms {
+    text-align: left;
+}
+
+.terms a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn {
+    background: #4a90e2;
+}
+
+.signin-btn {
+    background: #6abf4b;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.highlight {
+    display: inline-block;
+    background-color: #4c72af; /* Button color */
+    color: #fff; /* Text color */
+    padding: 2px 8px; /* Padding to make it look like a button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline if it's a link */
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Button shadow for depth effect */
+    border: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
