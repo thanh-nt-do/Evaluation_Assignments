@@ -1,0 +1,29 @@
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Linux system files
+.trash/
+.fseventsd/
+.spotlight-v100/
+.volumeIcon.icns
+
+# macOS resource fork files
+._*
+
+# Temporary files and backups
+*.tmp
+*.swp
+*.swo
+*.bak
+*.~*
+
+# Logs
+*.log
+
+# Files for specific editors
+*.idea/
+*.vscode/
