@@ -68,6 +68,7 @@
 
 /* Individual grid items */
 .grid-item {
+    position: relative;
     width: 200px;
     height: 200px;
     /* background-color: lightblue; */
@@ -81,7 +82,18 @@
 
 /* Adjust mole size to fit circle  */
 .mole {
+    position: absolute;
     width: 70%;
     height: 70%;
+    z-index: 1;
+    display: none;
+}
+
+/* Adjust the snake size  */
+.snake {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    z-index: 2;
     display: none;
 }
