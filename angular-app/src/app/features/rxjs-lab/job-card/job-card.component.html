@@ -1,0 +1,9 @@
+<div class="job-card-container">
+    <h3 class="title"> {{job['title']}} </h3>
+    <div class="by-time">
+        <span class="by"> By {{job['by']}} </span>
+        <span class="time"> {{job['time']}} </span>
+    </div>
+    <button (click)="sendJobId()" [class.show]="isInterested">Add</button>
+    <button (click)="deleteJobId()" [class.show]="!isInterested">Delete</button>
+</div>

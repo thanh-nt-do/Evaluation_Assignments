@@ -1,0 +1,24 @@
+.job-board-container {
+    background-color: bisque;
+
+    .board-title {
+        color: orange;
+        font-weight: bolder;
+    }
+
+    .job-container {
+        border: 1px solid black;
+        margin: 10px 0 10px 0;
+        background-color: white;
+    }
+
+    .more-button {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-left: 0;
+        color: whitesmoke;
+        background-color: orange;
+        border: none;
+    }
+}

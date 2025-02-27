@@ -1,0 +1,7 @@
+<div class="interested-job-container">
+    <h1 class="board-title"> Interested Jobs Board </h1>
+
+    <div class="job-container" *ngFor="let item of jobList">
+        <app-job-card [isInterested]="isInterestedJob" [jobId]="item"></app-job-card>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="job-board-container">
+    <h1 class="board-title"> Hackers News Jobs Board </h1>
+
+    <div class="job-container" *ngFor="let item of jobDisplayList">
+        <app-job-card [isInterested]="isInterestedJob" [jobId]="item.toString()"></app-job-card>
+        <!-- <ng-container *ngFor="let item of data"> {{item}} </ng-container> -->
+
+    </div>
+
+    <button class="more-button" (click)="loadMoreJobs()">Load more jobs</button>
+</div>
+
+
+

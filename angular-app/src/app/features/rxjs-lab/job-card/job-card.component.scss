@@ -1,0 +1,22 @@
+.job-card-container{
+    background-color: white;
+    width: auto;
+    // padding: 10px;
+    margin: 10px;
+
+    button {
+        background-color: orange;
+        color:whitesmoke;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .title {
+        margin-top: 0;
+    }
+
+    .show {
+        display: none;
+    }
+}
