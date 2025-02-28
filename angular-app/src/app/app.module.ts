@@ -8,6 +8,7 @@ import { JobsBoardComponent } from './features/rxjs-lab/jobs-board/jobs-board.co
 import { InterestedJobsBoardComponent } from './features/rxjs-lab/interested-jobs-board/interested-jobs-board.component';
 import { HttpClientModule } from '@angular/common/http';
 import { JobCardComponent } from './features/rxjs-lab/job-card/job-card.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { JobCardComponent } from './features/rxjs-lab/job-card/job-card.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration()
