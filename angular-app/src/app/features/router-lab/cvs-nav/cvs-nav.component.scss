@@ -1,0 +1,26 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    padding: 0 45px;
+    height: 50px;
+
+    .options  {
+        display: flex;
+        gap: 20px;
+        button {
+            background-color: red;
+            color: white;
+            border: none;
+            
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(122, 9, 9);
+                height: 50px;
+            }
+        }
+    }
+}

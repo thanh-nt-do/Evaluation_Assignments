@@ -35,7 +35,7 @@ export class ValidatorCheckConfirmedPasswordComponent implements OnInit {
   comparePassword(group: AbstractControl): ValidationErrors | null {
     const password = group.get('password')?.value;            // Access password value
     const confirmPassword = group.get('confirmPassword')?.value;
-    console.log(password === confirmPassword)
+    // console.log(password === confirmPassword)
 
     if (password !== confirmPassword) {
       return { comparePassword: 'Passwords do not match!' };

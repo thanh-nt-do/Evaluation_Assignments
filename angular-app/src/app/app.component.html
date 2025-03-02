@@ -1,6 +1,10 @@
+<app-cvs-nav *ngIf="showCVSNav"></app-cvs-nav>
 <div class="container">
-  <app-validator-check-confirmed-password></app-validator-check-confirmed-password>
+  <!-- <app-validator-check-confirmed-password></app-validator-check-confirmed-password> -->
   <!-- <app-jobs-board></app-jobs-board> -->
 
   <!-- <app-interested-jobs-board></app-interested-jobs-board> -->
+
+  <router-outlet></router-outlet>
+
 </div>

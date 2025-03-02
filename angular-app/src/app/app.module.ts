@@ -9,6 +9,10 @@ import { InterestedJobsBoardComponent } from './features/rxjs-lab/interested-job
 import { HttpClientModule } from '@angular/common/http';
 import { JobCardComponent } from './features/rxjs-lab/job-card/job-card.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CvsNavComponent } from './features/router-lab/cvs-nav/cvs-nav.component';
+import { DirectoryPageComponent } from './features/router-lab/directory-page/directory-page.component';
+import { UserCardComponent } from './features/router-lab/directory-page/user-card/user-card.component';
+import { ContactUsPageComponent } from './features/router-lab/contact-us-page/contact-us-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     ValidatorCheckConfirmedPasswordComponent,
     JobsBoardComponent,
     InterestedJobsBoardComponent,
-    JobCardComponent
+    JobCardComponent,
+    CvsNavComponent,
+    DirectoryPageComponent,
+    UserCardComponent,
+    ContactUsPageComponent
   ],
   imports: [
     BrowserModule,

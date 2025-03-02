@@ -1,0 +1,7 @@
+<div class="user-card">
+    <img [src]="user['avatar']" class="user-image">
+    <div class="user-info">
+        <h4>{{ user['first_name'] }} {{ user['last_name'] }}</h4>
+        <a [href]="'mailto:' + user['email']">{{ user['email'] }}</a>
+    </div>
+</div>

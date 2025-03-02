@@ -1,0 +1,29 @@
+<div class="contact-us-page-container">
+    <h1>Contact us</h1>
+
+    <div *ngIf="status" class="confirmation-message">
+        <p class="success-text">Thank you for contacting us. We will be in touch shortly!</p>
+        <hr>
+        <h4>You have submitted the following message:</h4>
+        <p><strong>Name:</strong> {{ submittedMessage.name }}</p>
+        <p><strong>Message:</strong> {{ submittedMessage.message }}</p>
+    </div>
+
+
+    <div class="send-mes" [formGroup]="sendMes" *ngIf="!status">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" formControlName="name"> 
+            <p *ngIf="!name.valid && name.touched" [ngStyle]="{color: 'red'}"> Name is required! </p>
+        </div>
+    
+        <div>
+            <label for="message">Message:</label>
+            <input type="text" id="message" formControlName="message"> 
+            <p *ngIf="!message.valid && message.touched" [ngStyle]="{color: 'red'}"> Your message must be at least 10 characters long! </p>
+        </div>
+    </div>
+
+    <button (click)="onSubmit()" *ngIf="!status"> Send Message</button>
+
+</div>

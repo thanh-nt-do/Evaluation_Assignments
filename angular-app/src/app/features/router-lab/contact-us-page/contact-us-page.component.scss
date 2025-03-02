@@ -1,0 +1,60 @@
+.contact-us-page-container {
+    padding: 10px 45px;
+
+    .confirmation-message {
+        .success-text {
+            color: green;
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+    }
+
+    .send-mes {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            input {
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 10px;
+                font-size: 14px;
+                width: 50%;
+            }
+
+            p {
+                font-size: 12px;
+                margin-top: 5px;
+                color: red;
+            }
+        }
+    }
+
+    button {
+        margin-top: 20px;
+        background-color: red; // Brownish-red
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #6a341b;
+        }
+    }
+}
